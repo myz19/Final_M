@@ -1,0 +1,30 @@
+For my first version, I was coding with Python 2 so after I downloaded Python three it stopped working.
+I made the user input a string of numbers with commas in between and made the input into a list.
+Then using a for loop I added each term in the list to the sum and divded by the length of the string to find the
+average.
+For max and min, I set the first term in the list as both the min and max and used a for loop with two if loops inside
+to compare each value in the list to the original min and max to reassign the min and max.
+To find the standard deviation, I first found the sum of the variances for all the terms in the list. I used a for loop
+to add on the variance for each term to the sumOfVariances variable. Then I divided the sumOfVariances by the length of
+the list. Then I used the power function and raised it to the power of 0.5 to square root it to get the standard
+deviation.
+Then I printed what the sum, average, max, min, and standard deviations were.
+
+For the second version I had to recode the part with the input since in Python 3 the input function works differently.
+I first printed to the screen asking the user how many integers they wanted to enter and set that input as an integer
+into count.
+I created an empty list called L.
+Then, assuming that they entered a count number greater than zero, I used a for loop to go through all the values of
+range(count) and printed to the screen allowing the user to give an integer. Then made that input into an int and
+appended it to L.
+Then I did the same thing as the previous version except that I had to make what I was added to the sumOfVariances into
+a float. But this only worked for integers I wanted to explore how to make it work for non integers.
+
+For the third version, I made the user input a string of numbers like the first version but then split it by the commas
+into a list. Then a created a new_list and made it an empty list. Then I used a for loops and if loops to append things
+to this new list. There were different if loops for different types of numbers such as decimals, fractions, and lists.
+Then everything else was the same as the first version.
+
+For the last version, I imported the Fractions module so when it printed a fraction as the min or max value it would
+have the slash in it instead of evaluating the fraction. I also added another if statement for scientific notation but I
+wasn't sure about how to print it in the scientific notation form instead of evaluating it.

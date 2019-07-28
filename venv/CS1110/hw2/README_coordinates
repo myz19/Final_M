@@ -1,0 +1,27 @@
+For the first version I asked the user for the number of coordinates they wanted to enter and then created empty lists
+for the list of all of the coordinates and then for the coordinates on, above, and below the line y=x. Then I asked
+the user to enter the coordinates separated by a comma. I let the user put in decimals or integers. (I want to know how
+to allow the user input fractions and other types of numbers). Then I separated the coordinate by the comma so it became
+a list inside another list. Then I appended the list to points_list. Then using if and if/else loops I placed the
+coordinates into the correct list of on, above, or below the line. Then I created a list of tuples of the name and the
+length of the list and sorted the list by the length of the tuples in the list. Then I printed the comparison after the
+sort.
+
+For the second version I did the same thing asking the user and creating empty lists. But I made a function that
+determined which list a coordinate goes into using the if and if/else loop. I created a text file and put some
+coordinates into it. Then I read the file and categorized those coordinates using the new function I created. I compared
+the length of the lists and printed them in the same way.
+
+For the third version I did the same as version 2 but at the end I created another text file and wrote in it. I put the
+on, above, and below lists. Then I opened the file and read it and assigned on, above, and below to their corresponding
+lists. Then I printed them out.
+
+For the final version I had the same code but put into different functions. I still have the determinePoints function
+from the second version. But I also created a function called printCoordinates that contains all the code of creating
+a list of tuples and sorting and printing the comparison. I also added a if/else for when all the lengths are the same.
+I also created a function called printFile that contained the code that created a new text file and wrote in it and then
+read and printed the three lists out. I created a function called manualInput that asks the user to put in coordinates
+when they run the program instead of calling a file with coordinates already in it. Then the function readFile
+categorizes the coordinates that are already in a specific file that the user calls. Then I created a menu that allowed
+the user to pick what they wanted to do. THey could either manually input their coordinates or inputting a file name
+with their coordinates in the file.

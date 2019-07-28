@@ -1,0 +1,10 @@
+I first printed out asking the user how many lines of text the user would like to enter. Then the user enters the text
+that they want to enter. I created an empty string lines. Then using a for loop for all the values in the range of
+number of lines they want to enter, I add each line of text to the string lines with a space in between so the 'x'
+number of lines become just one. Then I created a new list called word_list replacing the punctuation with spaces and
+each word being a value in the list. Then I created a new empty list called unique_word_length. Then using a for loop
+I added the unique word lengths in the text the user inputted. Then I sorted the list in ascending order. Then using a
+for loop for every different word length in the unique_word_length list I created a new empty list and for every word
+in word_list I compared the length of the word to the different values of word lengths in list and added the word to the
+corresponding list of that word length. Then I printed each list of each word length and a sentence saying how many
+words are in each list and of what word length.
